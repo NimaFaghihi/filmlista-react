@@ -6,7 +6,7 @@ export default function Movie(props) {
     function getStars(nr_of_stars) {
         const starlist = []
         for (let i = 0; i < nr_of_stars; i++) {
-            starlist.push(<img src="/star.png" alt="Star" className="float-right" />);
+            starlist.push(<img src="/star.png" alt="Star" />);
     }
     return starlist;
 
